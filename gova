@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Prompt for username
+read -p "Enter username: " username
+
+# Prompt for password (silently)
+read -s -p "Enter password: " password
+echo
+
+# Your authentication logic goes here
+# For example, you can use the username and password variables to authenticate the user against a database or a file
+
+# Example authentication check (replace with your actual authentication logic)
+if [ "$username" == "admin" ] && [ "$password" == "secret" ]; then
+    echo "Authentication successful"
+else
+    echo "Authentication failed"
+fi
