@@ -1,2 +1,6 @@
 hi welcome to devops
+<<<<<<< Updated upstream
 hi welcome to tkr clg
+=======
+hi welcome to docker classes
+>>>>>>> Stashed changes
