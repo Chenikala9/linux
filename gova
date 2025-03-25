@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Prompt for username
+# Prompt for username for user
 read -p "Enter username: " username
 
 # Prompt for password (silently)
